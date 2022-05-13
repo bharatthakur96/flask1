@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-app = Flask(__name__)
+from config import app
 
 @app.route("/")
 def home():
