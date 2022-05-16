@@ -1,5 +1,6 @@
-# from flask import Flask
-
-# app = Flask(__name__)
-# app.config ["SECRET_KEY"]='7db148d3c46796421b7e8d66406ab0dd'
-
+class Config(object):
+    DEBUG = True
+    DEVELOPMENT = True
+    SECRET_KEY = '895fffdd19c34048387252d2c45034beb613dacc'
+    DB_HOST = "sqlite:///todo.db"
+    
